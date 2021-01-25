@@ -45,7 +45,7 @@ else:
 # get key id for subkey which uses ECDH encryption
 # print(key.subkeys)
 for keyid, value in key.subkeys.items():
-    print ("key: ",keyid)
+    print ("key id: ",keyid)
 # subkey.pubkey
 # print(key.subkeys[keyid].pubkey)
 # subkey private key

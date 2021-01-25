@@ -37,10 +37,6 @@ else:
     keybytes = bytes(key)
     with open("bob_key"+ ".asc", 'wb') as fo:
        fo.write(keybytes)
-    # save this key as Bob's
-    keybytes = bytes(subkey)
-    with open("bob_subkey"+ ".asc", 'wb') as fo:
-       fo.write(keybytes)
 
 #export Bob's public key in a file so, Alice can retrieve it
 pubkeybytes = bytes(key.pubkey)
